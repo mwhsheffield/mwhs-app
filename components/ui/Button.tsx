@@ -1,5 +1,7 @@
 import { Pressable, Text, StyleSheet, ViewStyle, TextStyle } from 'react-native';
 
+import { COLORS } from '@/constants';
+
 interface ButtonProps {
   /** The label text displayed inside the button. */
   title: string;
@@ -67,15 +69,15 @@ const styles = StyleSheet.create({
     minWidth: 100,
   },
   primary: {
-    backgroundColor: '#007AFF',
+    backgroundColor: COLORS.primary,
   },
   secondary: {
-    backgroundColor: '#6B7280',
+    backgroundColor: COLORS.secondary,
   },
   outline: {
     backgroundColor: 'transparent',
     borderWidth: 1,
-    borderColor: '#007AFF',
+    borderColor: COLORS.primary,
   },
   disabled: {
     opacity: 0.5,
@@ -85,13 +87,13 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   primaryText: {
-    color: '#FFFFFF',
+    color: COLORS.white,
   },
   secondaryText: {
-    color: '#FFFFFF',
+    color: COLORS.white,
   },
   outlineText: {
-    color: '#007AFF',
+    color: COLORS.primary,
   },
   disabledText: {
     opacity: 0.5,

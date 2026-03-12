@@ -1,7 +1,7 @@
 {
-  "name": "expo-rn-template",
+  "name": "mwhs-app",
   "version": "1.0.0",
-  "description": "A reusable React Native template using Expo with TypeScript, navigation, and best practices",
+  "description": "MWHS mobile app for prayer times and community events",
   "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
@@ -17,14 +17,10 @@
   "keywords": [
     "expo",
     "react-native",
-    "template",
-    "typescript",
-    "navigation"
+    "mwhs",
+    "mosque",
+    "prayer-times"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mwijanarko1/Expo-RN-Template"
-  },
   "packageManager": "bun@1.3.10",
   "license": "MIT",
   "dependencies": {
@@ -33,26 +29,34 @@
     "eslint-config-expo": "~55.0.0",
     "expo": "^55.0.0",
     "expo-constants": "~55.0.0",
+    "expo-font": "55.0.4",
+    "expo-image": "55.0.6",
+    "expo-linear-gradient": "55.0.8",
     "expo-linking": "~55.0.0",
     "expo-notifications": "~55.0.0",
     "expo-router": "~55.0.0",
+    "expo-splash-screen": "55.0.10",
     "expo-status-bar": "~55.0.0",
+    "firebase": "12.10.0",
+    "moment-hijri": "3.0.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "react-native": "0.83.2",
-    "react-native-web": "~0.21.0",
     "react-native-safe-area-context": "~5.6.0",
     "react-native-screens": "~4.23.0",
+    "react-native-web": "~0.21.0",
     "zod": "^3.23.8",
     "zustand": "^5.0.9"
   },
   "devDependencies": {
     "@testing-library/jest-native": "^5.4.3",
     "@testing-library/react-native": "^13.0.0",
+    "@types/jest": "30.0.0",
     "@types/react": "~19.2.0",
     "babel-plugin-module-resolver": "^5.0.2",
     "jest": "^29.7.0",
     "jest-expo": "~55.0.0",
+    "react-test-renderer": "19.2.0",
     "typescript": "~5.9.3"
   },
   "private": false
